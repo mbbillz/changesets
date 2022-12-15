@@ -1,5 +1,12 @@
 # @changesets/apply-release-plan
 
+## 6.1.3
+
+### Patch Changes
+
+- Updated dependencies [[`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7)]:
+  - @changesets/git@2.0.0
+
 ## 6.1.2
 
 ### Patch Changes

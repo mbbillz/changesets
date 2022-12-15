@@ -1,5 +1,20 @@
 # @changesets/git
 
+## 2.0.0
+
+### Major Changes
+
+- [#1029](https://github.com/changesets/changesets/pull/1029) [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7) Thanks [@Andarist](https://github.com/Andarist)! - `getCommitsThatAddFiles` accepts an options object argument now where you can use `cwd` option.
+
+  ```diff
+  -getCommitsThatAddFiles(paths, cwd);
+  +getCommitsThatAddFiles(paths, { cwd });
+  ```
+
+- [#1029](https://github.com/changesets/changesets/pull/1029) [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7) Thanks [@Andarist](https://github.com/Andarist)! - `getCurrentCommitId` and `getCommitsThatAddFiles` return full commit hashes now instead of short ones. You can get short ones by using the `short: true` option.
+
+- [#1029](https://github.com/changesets/changesets/pull/1029) [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7) Thanks [@Andarist](https://github.com/Andarist)! - Previously deprecated `getCommitThatAddsFile` has been removed while `getCommitsThatAddFiles` is still available.
+
 ## 1.5.0
 
 ### Minor Changes

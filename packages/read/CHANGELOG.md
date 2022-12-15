@@ -1,5 +1,12 @@
 # @changesets/read
 
+## 0.5.9
+
+### Patch Changes
+
+- Updated dependencies [[`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7), [`598136a`](https://github.com/changesets/changesets/commit/598136a32a00b620c9521d7a7151fbbc721c17d7)]:
+  - @changesets/git@2.0.0
+
 ## 0.5.8
 
 ### Patch Changes
